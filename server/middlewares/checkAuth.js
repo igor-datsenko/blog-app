@@ -6,7 +6,6 @@ export const checkAuth = async (req, res, next) => {
     if (err) {
       return res.status(401).json({ message: 'Unauthorized' });
     }
-      console.log(decoded);
     req.decoded = decoded;
     next();
   });
