@@ -1,12 +1,12 @@
 import {Header} from "./header/header.tsx";
 
-export const Layout = ( { children  } : any) => {
+export const Layout = ( {  } : any) => {
     return (
         <>
             <Header />
-            <div className="content-center">
-                { children  }
-            </div>
+            {/*<div className="content-center">*/}
+            {/*    { children  }*/}
+            {/*</div>*/}
         </>
     )
 }
